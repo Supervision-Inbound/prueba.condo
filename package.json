@@ -1,0 +1,40 @@
+{
+  "name": "condo-admin-chile",
+  "version": "1.0.0",
+  "description": "Sistema de administración de condominios para Chile - Optimizado para Cloudflare Pages",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 8080 -c-1",
+    "build": "echo 'Build step complete'",
+    "deploy": "echo 'Deploy to Cloudflare Pages'",
+    "preview": "npx http-server . -p 8080 -c-1",
+    "start": "npm run dev",
+    "serve": "npx http-server . -p 3000 -c-1"
+  },
+  "keywords": [
+    "condominio",
+    "administracion",
+    "chile",
+    "cloudflare-pages",
+    "property-management",
+    "residential"
+  ],
+  "author": "MiniMax Agent",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usuario/condo-admin-chile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usuario/condo-admin-chile/issues"
+  },
+  "homepage": "https://github.com/usuario/condo-admin-chile#readme"
+}
